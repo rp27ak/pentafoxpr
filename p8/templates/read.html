@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Read</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='a.css')}}">
+</head>
+<body>
+<h1 style="text-align: center;">read data from Table</h1>
+<form method="post">
+	<label for="qu">Enter read Query</label><br>
+	<input type="text" name="rqu"><br>
+	<input type="submit" class="but" >
+
+</form>
+<form>
+	<textarea rows="10" cols="70">  {{data}}</textarea>
+</form>
+</body>
+</html>

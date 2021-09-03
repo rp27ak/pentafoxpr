@@ -1,0 +1,36 @@
+body{
+background-color: lightblue;
+}
+table{
+	border-collapse: collapse;
+}
+h3{
+	text-align: center;
+}
+td{
+	padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+a{
+	text-decoration: none;
+}
+form{
+	width: 50%;
+	padding-left: 400px;
+	margin-top: 150px;
+}
+input{
+	width:100%;
+	padding: 12px 20px;
+	border: 1px solid black;
+
+}
+.but{
+	width:50%;
+	margin-top: 20px;
+	margin-left: 180px;
+}
+
+}
